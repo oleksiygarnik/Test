@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tokens>
+  <token>
+    <code>1</code>
+    <value>int</value>
+  </token>
+  <token>
+    <code>2</code>
+    <value>float</value>
+  </token>
+  <token>
+    <code>3</code>
+    <value>bool</value>
+  </token>
+  <token>
+    <code>4</code>
+    <value>for</value>
+  </token>
+  <token>
+    <code>5</code>
+    <value>to</value>
+  </token>
+  <token>
+    <code>6</code>
+    <value>step</value>
+  </token>
+  <token>
+    <code>7</code>
+    <value>step</value>
+  </token>
+</tokens>

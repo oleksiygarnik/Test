@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diagram>
+  <states>
+    <state isFinish = "false">
+      <number>1</number>
+    </state>
+    <state isFinish ="true">
+      <number>2</number>
+    </state>
+    <state isFinish ="true">
+      <number>3</number>
+    </state>
+    <state isFinish ="true">
+      <number>4</number>
+    </state>
+  </states>
+  <edges>
+    <edge>
+      <from>1</from>
+      <to>2</to>
+      <classes>
+        <class>letter</class>
+      </classes>
+    </edge>
+    <edge>
+      <from>1</from>
+      <to>3</to>
+      <classes>
+        <class>digit</class>
+      </classes>    
+    </edge>
+    <edge>
+      <from>2</from>
+      <to>2</to>
+      <classes>
+        <class>digit</class>
+        <class>letter</class>
+      </classes>
+    </edge>
+    <edge>
+      <from>3</from>
+      <to>3</to>
+      <classes>
+        <class>digit</class>
+      </classes>
+    </edge>
+    <edge>
+      <from>3</from>
+      <to>4</to>
+      <classes>
+        <class>dot</class>
+      </classes>
+    </edge>
+    <edge>
+      <from>4</from>
+      <to>4</to>
+      <classes>
+        <class>digit</class>
+      </classes>
+    </edge>
+  </edges>
+</diagram>
